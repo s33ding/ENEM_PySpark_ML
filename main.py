@@ -61,4 +61,6 @@ for col_nm in cols_float:
     df = df.withColumn(col_nm, df[col_nm].cast(IntegerType()))
 
 df = df.drop("TP_Lingua")
+df.write.parquet("dataset/enem.parquet") 
+
 df.show()

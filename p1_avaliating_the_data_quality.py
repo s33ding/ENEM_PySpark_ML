@@ -4,25 +4,39 @@ import pyspark
 import os 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import regexp_replace, col
-from shared_func import create_and_save_boxplot
-
+from shared_func import generate_html_report
+from shared_func import add_section
 
 # Start a Spark session
 spark = SparkSession.builder.appName("s33ding").getOrCreate()
+
+# Perform your data processing and analysis
+
+# Generate HTML report
+title = "PySpark Report"
 
 
 ## Start a Spark session
 df = spark.read.csv("dataset/enem.csv", header=True, inferSchema=True)
 
 #defining a problem
+nmb_of_rows = df.count()
 
-df.count()
+p1 = f"""Number of rows: {nmb_of_rows}"""
+print(p1)
 
-df.columns
 
-len(df.columns)
+col_names = df.columns
 
-df.dtypes
+df_dtypes = df.dtypes
+
+p2 = f"""
+    Data Types: 
+    {df_dtypes}
+"""
+
+(df.columns)
+
 
 #Visually Inspecting Data / EDA
 
@@ -78,12 +92,11 @@ lst_num_data = [
     "NOTA_CH_CIENCIAS_HUMANAS", 
     "NOTA_LC_LINGUAGENS_E_CODIGOS",
     "NOTA_MT_MATEMATICA",
-    "NOTA_REDACAO",
+    "NOTA_REDACAO"
 ]
 
 #rmv outliers
 for my_col in lst_num_data:
-    create_and_save_boxplot(df, my_col)
     # Calculate values used for outlier filtering
     mean_val = df.agg({my_col: "mean"}).collect()[0][0]
     stddev_val = df.agg({my_col: "stddev"}).collect()[0][0]

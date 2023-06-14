@@ -2,3 +2,6 @@
 *.parquet
 *.crc
 dataset/
+*_SUCCESS
+*part*
+models/

@@ -1,0 +1,1 @@
+aws s3 cp data_for_dashboards s3://s33ding-data-mining-project/ --recursive

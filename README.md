@@ -1,11 +1,24 @@
-Faça o download da base de dados  Enem_2020_2021_anomalias no link (https://drive.google.com/drive/folders/1-N_oheRujDkSqq-q0hFk_UOzbdk26c4P?usp=sharing). Com esta base de dados e utilizando o SAS Viya você deverá preparar um modelo para estimar as variáveis notas de "Ciências da Natureza" e a "Cor e Raça".  Você deverá:
+Enem_2020_2021_anomalies Data Modeling Project with PySpark
+Project Description
+In this project, we leverage the capabilities of PySpark to prepare a model for estimating "Natural Sciences" scores and "Color and Race" variables. The dataset we're working with is the Enem_2020_2021_anomalies database, which can be downloaded from the following link: Enem_2020_2021_anomalies database.
 
+PySpark, the Python library for Apache Spark, offers powerful functionalities for large-scale data processing, making it suitable for our data modeling tasks.
 
-1. Avaliar a qualidade da base de dados;
-2. Utilize a solução de Preparar Dados para corrigir os tipos das variáveis e outras anomalias;
-3. Utilize a opção Build Models para Imputar os Missing Values, Outliers e valores dispares;
-4. Com a base corrigida, desenvolva três modelos para predizer as variáveis  "Ciências da Natureza" e "Cor e Raça". Total de seis (6)  modelos;  
-5. Avalie o melhor modelo entre os modelos desenvolvidos para cada variável;
-6. Utilize os arquivos ENEM_Score_Ciencia_Natureza e ENEM_Score_Cor_Raca e os melhores modelos para predizer as variáveis;
-7. Desenvolva um relatório contendo os principais itens do seu projeto;
-8. Prepare uma apresentação com os itens principais do projeto para uma apresentação de no máximo 15 minutos.
+Project Tasks
+Evaluate the quality of the database: Utilize PySpark's data manipulation capabilities to explore and understand the data types, detect possible outliers, identify missing values, and find inconsistent entries.
+
+Data preparation: Correct variable types and handle other anomalies in the dataset using PySpark's robust data transformation functions.
+
+Building Models: Impute missing values, handle outliers, and manage disparate values using PySpark's Machine Learning library (MLlib).
+
+Model development: Develop three models for each variable - "Natural Sciences" scores and "Color and Race". This will result in a total of six (6) models. PySpark MLlib offers various algorithms for model development.
+
+Model evaluation: Compare the models' performance for each variable to identify the best one. PySpark MLlib also provides tools for model evaluation.
+
+Model application: Apply the best models to predict the variables using the ENEM_Score_Ciencia_Natureza and ENEM_Score_Cor_Raca files.
+
+Report development: Develop a comprehensive report detailing your project, including the steps taken, challenges encountered, and results obtained.
+
+Presentation preparation: Prepare a presentation summarizing the project, including its key aspects. Ensure it does not exceed 15 minutes.
+
+These steps serve as general guidelines for the project. Depending on the specifics of the data and the objectives of the modeling task, additional steps may be necessary.

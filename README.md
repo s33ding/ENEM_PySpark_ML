@@ -20,6 +20,7 @@ In this project, we leverage the capabilities of PySpark to prepare models for e
 
 8. **Presentation preparation**: Prepare a presentation summarizing the project, including its key aspects. Ensure it does not exceed 15 minutes.
 
+
 ## File Structure
 
 The repository contains the following files and directories:
@@ -27,9 +28,13 @@ The repository contains the following files and directories:
 - `p1_CLEANING_AND_EXPLORING_enem_dataset.ipynb`: Jupyter Notebook for data cleaning and exploration.
 - `p2_ML_MODEL_to_predict_the_natural_sciences_grade.ipynb`: Jupyter Notebook for developing the "Natural Sciences" grade prediction model.
 - `p3_PREDICTING_the_natural_sciences_grade.ipynb`: Jupyter Notebook for predicting "Natural Sciences" grades using the developed model.
-- `p4_ML_MODEL_to_predict_the_color_and_race.ipynb`: Jupyter Notebook for developing the "Color and Race" prediction model.
-- `p5_PREDICTING_color_and_race.ipynb`: Jupyter Notebook for predicting "Color and Race" using the developed model.
+- `p4_FEATURE_SELECTION_color_race.py`: Python script for feature selection on the "Color and Race" dataset.
+- `p5_ML_MODEL_to_predict_the_color_and_race.ipynb`: Jupyter Notebook for developing the "Color and Race" prediction model.
+- `p6_PREDICTING_color_and_race.ipynb`: Jupyter Notebook for predicting "Color and Race" using the developed model.
 - `requirements.txt`: List of Python packages required for the project.
+- `download_dataset.txt`: Instructions on how to download the dataset.
+- `models/`: Directory to store the saved models.
+- `pyspark/`: Directory to store any additional PySpark-related files.
 
 Please follow the steps outlined in the notebooks to execute the project successfully. If you encounter any issues or have questions, feel free to reach out.
 

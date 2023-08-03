@@ -1,0 +1,16 @@
+Download the Dataset:
+
+    dataset/enem.csv - Download link: https://drive.google.com/file/d/1U1RxZsWKMtp1Rv-VBZ0uBAs1l_kXPX4F/view?usp=drive_link
+        Open the link in your web browser.
+        Click the "Download" button to download the enem.csv file.
+        Save the downloaded enem.csv file in the dataset directory of your project.
+
+    dataset/score_cn.csv - Download link: https://drive.google.com/file/d/1bEcKZQIArjVbv4WNtBUQ6wLlEa52OkXH/view?usp=drive_link
+        Open the link in your web browser.
+        Click the "Download" button to download the score_cn.csv file.
+        Save the downloaded score_cn.csv file in the dataset directory of your project.
+
+    dataset/score_cr.csv - Download link: https://drive.google.com/file/d/1AoL7d5A07rAj639ZfYBCMbFkH859P09X/view?usp=drive_link
+        Open the link in your web browser.
+        Click the "Download" button to download the score_cr.csv file.
+        Save the downloaded score_cr.csv file in the dataset directory of your project.

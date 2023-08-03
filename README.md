@@ -2,8 +2,6 @@
 
 In this project, we leverage the capabilities of PySpark to prepare models for estimating "Natural Sciences" scores and "Color and Race" variables. The dataset we're working with is the Enem_2020_2021_anomalies database, which can be downloaded from the following link: [Enem_2020_2021_anomalies database](link_to_dataset).
 
-![PySpark Logo](pyspark_logo.png)
-
 ## Project Tasks
 
 1. **Evaluate the quality of the database**: Utilize PySpark's data manipulation capabilities to explore and understand the data types, detect possible outliers, identify missing values, and find inconsistent entries.

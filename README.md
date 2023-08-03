@@ -1,6 +1,6 @@
 # Enem_2020_2021_anomalies Data Modeling Project with PySpark
 
-In this project, we leverage the capabilities of PySpark to prepare models for estimating "Natural Sciences" scores and "Color and Race" variables. The dataset we're working with is the Enem_2020_2021_anomalies database, which can be downloaded from the following link: [Enem_2020_2021_anomalies database](link_to_dataset).
+In this project, we leverage the capabilities of PySpark to prepare models for estimating "Natural Sciences" scores and "Color and Race" variables. The dataset we're working with is the Enem_2020_2021_anomalies database.
 
 ## Project Tasks
 
